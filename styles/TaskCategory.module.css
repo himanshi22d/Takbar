@@ -1,0 +1,63 @@
+/* styles/TaskCategory.module.css */
+
+.taskCategory {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.task {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #999999;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-task-form {
+  margin-top: 20px;
+}
+
+/* Button styles */
+.add-task-form button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.add-task-form button:hover {
+  background-color: #45a049;
+}
+
+/* Input styles */
+.add-task-form input[type="text"], .add-task-form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .task-category {
+    max-width: 100%;
+  }
+}
